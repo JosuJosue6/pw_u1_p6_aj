@@ -1,0 +1,52 @@
+/*en la parte del menu o nav
+Convinacion de selectores
+1ra por un espacion y el nombre del selector
+Conbinacion gerarquica, solo se aplica cuando hay un padre con la clase
+menu y tiene un hijo con el elemento li
+.menu li {
+
+}
+2da con una ¨,¨
+.menu, li {
+
+}
+
+Convinaciones de selectores*/
+/*Jerarquica*/
+.menu li{
+    /*Que la lista desaparezca*/
+    list-style: none;
+    /*Para que se vea en linea*/
+    display: inline-block;
+    /*margen: aplica a los cuatro lados*/
+    /*margin: 10px;
+    /*El primer numero aplica arriba y abajo y el segundo a los lados*/
+    margin: 10px 50px;
+    /*En sentido horario arriba derecha abajo e izquierda*/
+    /*margin: 10px 20px 30px 40px;
+    /*Esto aplica para el border y Padding*/
+    border: 1px dotted black;
+    border-color: whitesmoke;
+    padding: 10px;
+    /*Escoger letra especifica*/
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.menu {
+    background: #2C3E50;
+    padding: 5px 15px;
+    text-align: left;
+    color: white;
+}
+
+h1 {
+    font-size:  25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2 {
+    font: bold 14px sans-serif;
+}
+/*Por selector: tiene dos estilos para las dos selectores*/

@@ -1,0 +1,17 @@
+/*tipo de elemento*/
+h1 {
+    color: blueviolet;
+    background: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Selector de tipo clase*/
+.clasemedia {
+    color: brown;
+    background-color: yellow;
+}
+
+.clasealta {
+    color: white;
+    background-color: black;
+}
