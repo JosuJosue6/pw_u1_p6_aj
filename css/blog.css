@@ -36,7 +36,7 @@ Convinaciones de selectores*/
 .menu {
     background: #2C3E50;
     padding: 5px 15px;
-    text-align: left;
+    /*text-align: left;*/
     color: white;
 }
 
@@ -49,4 +49,76 @@ h1 {
 h2 {
     font: bold 14px sans-serif;
 }
-/*Por selector: tiene dos estilos para las dos selectores*/
+
+body {
+    /*Alinear al centro*/
+    text-align: center;
+    background: #f0f0f0;
+}
+
+.agrupar {
+    border: 1px solid black;
+    background-color: #b0bbc7;
+    /*Ancho*/
+    width: 900px;
+    height: 1500px;
+    /*Centra el contenedor*/
+    margin: 20px auto;
+    color: white;
+}
+
+.cabecera {
+    background: #2C3E50;
+    border: 10px double white;
+    padding: 20px;
+    color: white;
+}
+
+.seccion {
+    width: 600px;
+    margin: 10px;
+    float: left;
+}
+
+#idarticulo1, #idarticulo2 {
+    background: #3c546d;
+    border: 10px double white;
+    padding: 20px;
+}
+
+article footer {
+    text-align: right;
+    
+}
+
+.referencias {
+    width: 200px;
+    float: right;
+    margin: 10px 40px;
+}
+
+/*El pie de la pagina debe tener el estilo clear both*/
+.pie {
+
+    clear: both;
+    color: black;
+}
+
+blockquote {
+
+    border: 5px solid black;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: white;
+    /*width: 150px;*/
+
+}
+
+img {
+    width: 250px;
+    height: 200px;
+
+    margin: auto auto;
+}
+
+/*Por selector tipo elemento: tiene dos estilos para las dos selectores*/
