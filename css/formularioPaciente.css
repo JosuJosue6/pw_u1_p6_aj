@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    margin: 5px 2px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+input {
+    width: 300px;
+    border: none;
+    border-bottom:2px double gray ;
+    background: none;
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 2px double rgb(63, 63, 63);
+}
+
+h2 {
+    margin: 10px 2px;
+    width: 180px;
+    color:rgb(63, 63, 63);
+    border-bottom: 2px solid rgb(63, 63, 63);
+}
+
+.form {
+    width: 300px;
+    height: 380px;
+    background-color: rgb(226, 223, 184);
+    border-radius: 15px;
+    padding: 25px 35px;
+    box-shadow: 0 0 15px 0px black;
+}
+
+body {
+    background: rgb(150, 147, 112);
+}
+
+button {
+    cursor: pointer;
+}
