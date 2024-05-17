@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Completa</title>
     <link rel="stylesheet" href="../css/calculadora.css">
+    <script src="../js/calculadoraCompleta.js"></script>
 </head>
 
 <body>
@@ -20,25 +21,25 @@
         container y los otros seran dependiendo de los elementos visibles-->
         <div class="container">
             <div class="calculadora">
-                <div class="display">1212</div>
-                <button class="col-2">C</button>
-                <button>&larr;</button>
-                <button>%</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>X</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-                <button class="col-2">0</button>
-                <button>.</button>
-                <button>=</button>
+                <div id="idDisplay" class="display">0</div>
+                <button onclick="limpiarDisplay()" class="col-2">C</button>
+                <button onclick="eliminarUltimo()">&larr;</button>
+                <button onclick="operacion('/')">%</button>
+                <button onclick="colocarNumero('7')">7</button>
+                <button onclick="colocarNumero('8')">8</button>
+                <button onclick="colocarNumero('9')">9</button>
+                <button onclick="operacion('*')">X</button>
+                <button onclick="colocarNumero('4')">4</button>
+                <button onclick="colocarNumero('5')">5</button>
+                <button onclick="colocarNumero('6')">6</button>
+                <button onclick="operacion('-')">-</button>
+                <button onclick="colocarNumero('1')">1</button>
+                <button onclick="colocarNumero('2')">2</button>
+                <button onclick="colocarNumero('3')">3</button>
+                <button onclick="operacion('+')">+</button>
+                <button onclick="colocarNumero('0')" class="col-2">0</button>
+                <button onclick="colocarNumero('.')">.</button>
+                <button onclick="calcular()">=</button>
                 <!--Hay caracteres especiales que pueden darme problemas 
                 como < que dan errores, para solucionar estos problkemas en 
                 progra web existen los caracteres unicode para HTML, estos tienen una codificación

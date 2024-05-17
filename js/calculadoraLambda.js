@@ -281,4 +281,33 @@ function conceptosJS() {
     console.log(nombre);
     console.log(callePrincipal);
 
+
+    //TAREA****************************************************
+
+    for (const dia of diasSemana) {
+        console.log(dia);
+        if (dia == "Viernes") {
+            console.log("Por fin llego en fin de semana!!!.");
+        }
+    }
+
+    for (const dia of diasSemana) {
+        console.log(dia);
+        if (dia != "Viernes") {
+            console.log("Aun no llega el fin de semana!!! :c.");
+        }
+    }
+
+    for (const dia of diasSemana) {
+        console.log(dia);
+        if (dia !== "Viernes") {
+            console.log("No es fin de semana!!!.");
+        }
+    }
+    for (const dia of diasSemana) {
+        console.log(dia);
+        if (dia == "Viernes") {
+            console.log("Por fin llego en fin de semana!!!.");
+        }
+    }
 }
