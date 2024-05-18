@@ -15,7 +15,7 @@ p:before {
 input {
     width: 300px;
     border: none;
-    border-bottom:2px double gray ;
+    border-bottom: 2px double gray;
     background: none;
 }
 
@@ -27,14 +27,14 @@ input:focus {
 h2 {
     margin: 10px 2px;
     width: 180px;
-    color:rgb(63, 63, 63);
+    color: rgb(63, 63, 63);
     border-bottom: 2px solid rgb(63, 63, 63);
 }
 
 .form {
     width: 300px;
     height: 380px;
-    background-color: rgb(226, 223, 184);
+    background-color: rgb(235, 232, 192);
     border-radius: 15px;
     padding: 25px 35px;
     box-shadow: 0 0 15px 0px black;
@@ -44,6 +44,20 @@ body {
     background: rgb(150, 147, 112);
 }
 
-button {
-    cursor: pointer;
+.boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
 }
+
+button {
+    padding: 5px 20px;
+    cursor: pointer;
+    background: rgb(144, 211, 154);
+    border-radius: 5px;
+    border:1px solid rgb(150, 147, 112);
+    color: rgb(0, 0, 0);
+}
+/* EL uso de un API tendra una url, de forma que estas unan el front con el back , pues cuando el usuar
+ interactue con la vista, finalmente es una aplicacion web */

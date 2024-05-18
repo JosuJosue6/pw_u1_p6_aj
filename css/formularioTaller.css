@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p:before {
+    content: attr(type);
+    display: block;
+    margin: 5px 2px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.form {
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows:repeat(3,75px);
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+input {
+    width: 190px;
+    grid-column: auto;
+    border-radius: 3px;
+    border: 1px double rgb(207, 207, 207);
+    padding: 5px 20px;
+    background: none;
+}
+
+.doblecolumna {
+    grid-column: span 2;
+    padding-right: 270px;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+
+}
